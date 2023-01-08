@@ -1,0 +1,65 @@
+* Lisp History
+Time: late 1950s
+Where: MIT
+Reason: for research AI
+
+
+* Snippets
+
+** nil
+meaning: logical true or false || empty list || name with "nil"
+
+#+BEGIN_SRC emacs-lisp
+(cons 'foo ())
+(setq foo-flag nil)
+#+END_SRC
+
+#+RESULTS:
+
+
+** Evaluation Notation
+
+#+BEGIN_SRC emacs-lisp
+(car '(1 2))
+#+END_SRC
+
+#+RESULTS:
+: 1
+
+
+** Function Description
+| cmd        | effect                               |
+| &optional  | subsequent arguments may be omitted  |
+| &rest      | any number of arguments can follow   |
+
+#+BEGIN_SRC emacs-lisp
+(current-buffer)
+#+END_SRC
+
+#+RESULTS:
+: #<buffer references-note.org>
+
+
+** Other
+Symbol: an object with a name
+
+
+** Seq Types
+*** arrays
+fixed sizes
+
+*** lists
+dynamic sizes
+
+** Car && Cons
+cons cell consists of two slots( car slot & cdr slot)
+BackGround: car was an instruction to extract the contents of the address part of a register, and cdr an instruction to extract the contents of the decrement.
+
+* Association List Types
+#+BEGIN_SRC emacs-lisp
+(setq alist-of-colors
+      '((rose . red) (lily . white) (buttercup . yellow)))
+#+END_SRC
+
+#+RESULTS:
+: ((rose . red) (lily . white) (buttercup . yellow))
