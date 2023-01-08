@@ -1,9 +1,4 @@
-* Table of Contents
-** [[Concepts]]
-
-* Concepts
-
-** Kernels
+* Kernels
 Tasks:
   - Process Scheduling & Control
   - Memory Management
@@ -12,14 +7,14 @@ Tasks:
   - Network Management
   - Provide System Call Api
 
-** File I/O Models
+* File I/O Models
 #+BEGIN_QUOTE
 The kernel essentially provides one file type: a sequential stream of bytes, which, in the case of disk files, disks, and tape devices, can be randomly accessed using the lseek() system call.
 
 Same System Calls (open(), read(), write(), close()) are used to perform I/O on all types of files, including devices.
 #+END_QUOTE
 
-*** File Descriptors
+** File Descriptors
 #+BEGIN_QUOTE
 The I/O system calls refer to open files using a file descriptor, a (usually small) nonnegative integer.
 #+END_QUOTE
@@ -28,14 +23,15 @@ The I/O system calls refer to open files using a file descriptor, a (usually sma
 | descriptor 1 | /standard output/ |
 | descriptor 2 | /standard error/  |
 
-
-** Resource Limits
+* Resource Limits
 #+BEGIN_SRC cpp
 setrlimit() // soft limit: limits the amount of the resource that the process may consume;
             // hard limit: which is a ceiling on the value to which the soft limit may be adjusted
 #+END_SRC
 
-** Memory Mapping
+#+RESULTS:
+
+* Memory Mapping
 #+BEGIN_SRC cpp
 mmap() //memory mapping
        //  ...  file mapping : maps a region of file into process virtual memory
