@@ -7,6 +7,7 @@ Tasks:
   - Network Management
   - Provide System Call Api
 
+
 * File I/O Models
 #+BEGIN_QUOTE
 The kernel essentially provides one file type: a sequential stream of bytes, which, in the case of disk files, disks, and tape devices, can be randomly accessed using the lseek() system call.
@@ -23,6 +24,7 @@ The I/O system calls refer to open files using a file descriptor, a (usually sma
 | descriptor 1 | /standard output/ |
 | descriptor 2 | /standard error/  |
 
+
 * Resource Limits
 #+BEGIN_SRC cpp
 setrlimit() // soft limit: limits the amount of the resource that the process may consume;
@@ -30,6 +32,7 @@ setrlimit() // soft limit: limits the amount of the resource that the process ma
 #+END_SRC
 
 #+RESULTS:
+
 
 * Memory Mapping
 #+BEGIN_SRC cpp
@@ -41,6 +44,7 @@ mmap() //memory mapping
 #+BEGIN_QUOTE
 When two or more processes share the same pages, each process may see the changes made by other processes to the contents of the pages, depending on whether the mapping is created as private or shared. When a mapping is *private*, modifications to the contents of the mapping are not visible to other processes and are not carried through to the underlying file. When a mapping is *shared*, modifications to the contents of the mapping are visible to other processes sharing the same mapping and are carried through to the underlying file.
 #+END_QUOTE
+
 
 * Static Lib & Shared Lib
 /object library/: file containing the compiled object code for a (usually logically related) set of functions that may be called from application programs. Placing code for a set of functions in a single object library eases the tasks of program creation and maintenance.
@@ -54,5 +58,5 @@ A structured bundle of compiled object modules.
 
 ** Shared Lib
 #+BEGIN_QUOTE
- *Dynamic linker* just writes a record into the executable to indicate that at run time the executable needs to use that shared library.
+*Dynamic linker* just writes a record into the executable to indicate that at run time the executable needs to use that shared library.
 #+END_QUOTE
