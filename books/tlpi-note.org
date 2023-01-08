@@ -60,3 +60,13 @@ A structured bundle of compiled object modules.
 #+BEGIN_QUOTE
 *Dynamic linker* just writes a record into the executable to indicate that at run time the executable needs to use that shared library.
 #+END_QUOTE
+
+* IPC & Synchronization
+*IPC
+ - /signals/ : indicate event occured
+ - /pipes/   : transfer data between process
+ - /sockets/
+ - /file locking/
+ - /message queue/
+ - /semaphores/
+ - /shared memory/
