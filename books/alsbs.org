@@ -6,10 +6,10 @@ The key to assembly language is understanding memory addresses
 /memory/ is an aggregate of switches that retain a pattern long enough for that pattern to be read and understood by a person or a mechanism.
 
 ** A ram chip
-[[./img/ram_chip.png][img]]
+[[./img/ram_chip.png]]
 
 ** A megabyte chip
-[[./img/one_megabyte_chip.png][chip2]]
+[[./img/one_megabyte_chip.png]]
 
 #+begin_quote
 the CPU passes an address to the memory system, and the memory system either accepts data from the CPU for storage at that address or places the data found at that address on the computer’s data bus for the CPU to process.
@@ -20,3 +20,4 @@ the CPU passes an address to the memory system, and the memory system either acc
 
 - Peripherals: computer contains additional devices computer contains additional devices(eg. disk drives, USB ports)
 - IO Addresses: The address of a peripheral
+- Registers: The CPU’s immediate work-in-progress is held in temporary storage containers
