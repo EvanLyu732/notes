@@ -21,3 +21,9 @@ the CPU passes an address to the memory system, and the memory system either acc
 - Peripherals: computer contains additional devices computer contains additional devices(eg. disk drives, USB ports)
 - IO Addresses: The address of a peripheral
 - Registers: The CPU’s immediate work-in-progress is held in temporary storage containers
+
+
+
+\\
+
+* Location
