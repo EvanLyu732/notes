@@ -45,3 +45,23 @@ The skill of assembly language consists of a deep comprehension of memory addres
 #+begin_quote
 A segment is the location in memory at which the CPU’s 64K blinders are positioned.
 #+end_quote
+
+\\
+
+#+begin_quote
+/All segment registers are 16 bits in size, irrespective of the CPU./
+
+- CS: code segment
+- DS: data segment
+- SS: stack segment
+- ES & FS & GS: extra segment
+
+\\
+
+- Instruction pointer(IP):  contains the offset address of the next machine instruction to be executed in the current code segment.
+- Code Segments: an area of memory where machine instructions are stored.
+- Current Code Segments: code segment whose segment address is currently stored in code segment register /CS/.
+
+/Together, CS and IP contain the full address of the next machine instruction to be executed/.
+#+end_quote
+
