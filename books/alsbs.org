@@ -27,3 +27,21 @@ the CPU passes an address to the memory system, and the memory system either acc
 \\
 
 * Location
+#+begin_quote
+The skill of assembly language consists of a deep comprehension of memory addressing.
+#+end_quote
+
+** Memory Model
+| Name        | Value in Decimal | Value in Hex |
+| Byte        |                1 | 01H          |
+| Word        |                2 | 02H          |
+| Double Word |                4 | 04H          |
+| Quad Word   |                8 | 08H          |
+| Ten Byte    |               10 | 0AH          |
+| Paragraph   |               16 | 10H          |
+| Page        |              256 | 100H         |
+| Segment     |           65,356 | 10000H       |
+
+#+begin_quote
+A segment is the location in memory at which the CPU’s 64K blinders are positioned.
+#+end_quote
