@@ -71,6 +71,6 @@ A segment is the location in memory at which the CPU’s 64K blinders are positi
  BackGround: In the real mode ﬂat model, all program and all the data works on must exist within a single 64K block of memory.
 
  [[./img/real_mode_flat.png]]
- 
-  [[./img/real_mode_seg_model.png]]
+ \\
+ [[./img/real_mode_seg_model.png]]
  
