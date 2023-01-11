@@ -65,6 +65,9 @@ A segment is the location in memory at which the CPU’s 64K blinders are positi
 /Together, CS and IP contain the full address of the next machine instruction to be executed/.
 #+end_quote
 
+\\
 
 * Real Mode Flat Model
  BackGround: In the real mode ﬂat model, all program and all the data works on must exist within a single 64K block of memory.
+
+ [[./img/real_mode.flat.png]]
