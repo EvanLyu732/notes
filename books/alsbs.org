@@ -71,11 +71,11 @@ A segment is the location in memory at which the CPU’s 64K blinders are positi
  BackGround: In the real mode ﬂat model, all program and all the data works on must exist within a single 64K block of memory.
 
  [[./img/real_mode_flat.png]]
-<<<<<<< HEAD
 \\
 
 [[./img/real_mode_seg_model.png]]
 
+\\
 
 * Protected Model Flat Model
 
@@ -84,10 +84,6 @@ In protected mode ﬂat model, you are given a portion of 4GB of memory as your 
 #+end_quote
 [[./img/protected_mode_flat_model.png]]
 
+\\
 
 * Creating Assmembly Language Programs
-=======
- \\
- [[./img/real_mode_seg_model.png]]
- 
->>>>>>> 4545296c1443e5c8e14bea9d6e9808285da9128e
