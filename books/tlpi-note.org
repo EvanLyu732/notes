@@ -68,7 +68,7 @@ A structured bundle of compiled object modules.
 \\
 
 * IPC & Synchronization
-*IPC
+** IPC
  - /signals/ : indicate event occured
  - /pipes/   : transfer data between process
  - /sockets/
@@ -76,3 +76,9 @@ A structured bundle of compiled object modules.
  - /message queue/
  - /semaphores/
  - /shared memory/
+
+
+*** Signals:
+
+signal -> process  -------->  ignore || killed || suspend
+                    action
