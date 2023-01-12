@@ -77,8 +77,15 @@ A structured bundle of compiled object modules.
  - /semaphores/
  - /shared memory/
 
-
 *** Signals:
 
 signal -> process  -------->  ignore || killed || suspend
                     action
+
+*** Threads:
+conditional variable & threads
+
+\\
+
+* /proc
+The \/proc\ file system is a virtual file system that provides an interface to kernel data structures in a form that looks like files and directories on a file system.
