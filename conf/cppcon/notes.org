@@ -1,0 +1,2 @@
+* Coroutine
+/Talk/: [[https://www.youtube.com/watch?v=EGqz7vmoKco][C++ Coroutines, from Scratch - Phil Nash - CppCon 2022]]
