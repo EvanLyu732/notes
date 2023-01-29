@@ -4,7 +4,7 @@
 A new company's most important strength is new thinking.
 #+end_quote
 
-**Lesson Learned**:
+~Lesson Learned~:
    - Make incremental advances
    - Stay learn and flexible
    - Improve on the competition
