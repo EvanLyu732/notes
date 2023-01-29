@@ -3,3 +3,4 @@
 | Book                            | Note  |
 | The Linux Programming Interface | [[./tlpi-note.org][tlpi]]  |
 | Assembly language Step-By-Step  | [[./alsbs.org][alsbs]] |
+| Zero To One                     | [[./zto.org][zto]]   |
