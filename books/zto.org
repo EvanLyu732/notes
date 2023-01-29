@@ -21,3 +21,8 @@ A new company's most important strength is new thinking.
 #+begin_quote
 If you want to create and capture lasting value, don't build an undifferented commodity business.
 #+end_quote
+
+
+#+begin_quote
+Monopoly is the condition of every successful business.
+#+end_quote
