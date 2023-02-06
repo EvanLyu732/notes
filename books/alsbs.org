@@ -87,3 +87,11 @@ In protected mode ﬂat model, you are given a portion of 4GB of memory as your 
 \\
 
 * Creating Assmembly Language Programs
+#+begin_quote
+From a height, the process of assembly language programming (or programming in many other languages) consists of taking human-readable text ﬁles and translating them somehow into ﬁles containing sequences of binary machine instructions that the CPU can understand. You, as a programmer, need to understand which ﬁles are which (a lot more on this later) and how each is processed. /Also, you need to be able to ‘‘open’’ an executable binary ﬁle and examine the binary values that it contains./
+#+end_quote
+
+\\
+#+begin_quote
+If you program in higher-level languages like Visual Basic, Delphi, or C, most of the consequences of endianness are hidden by the language and the language compiler—at least until something goes wrong at a low level. Once you start reading ﬁles at a byte level, you have to know how to read them; and if you’re programming in assembly language, you had better be comfortable with endianness going in.
+#+end_quote
