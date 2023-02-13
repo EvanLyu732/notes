@@ -95,3 +95,5 @@ From a height, the process of assembly language programming (or programming in m
 #+begin_quote
 If you program in higher-level languages like Visual Basic, Delphi, or C, most of the consequences of endianness are hidden by the language and the language compiler—at least until something goes wrong at a low level. Once you start reading ﬁles at a byte level, you have to know how to read them; and if you’re programming in assembly language, you had better be comfortable with endianness going in.
 #+end_quote
+
+/Symbol Table/: with an entry for every named item in every object module it links, with information about what name (called a symbol) refers to what location within the module.
